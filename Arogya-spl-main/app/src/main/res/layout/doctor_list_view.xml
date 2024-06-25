@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="@color/ic_launcher_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/doctor_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@color/white"
+            app:cardCornerRadius="14dp"
+            android:minWidth="160dp"
+            android:minHeight="160dp">
+            <ImageView
+                android:id="@+id/doctor_image"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@color/white"
+                android:src="@drawable/arogya_logo"
+                android:minWidth="160dp"
+                android:minHeight="160dp"
+                android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/doctor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/doctor_card"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            tools:text="Dr. Place Holder" />
+
+        <TextView
+            android:id="@+id/doctor_qualification"
+            android:layout_width="wrap_content"
+            android:paddingTop="8dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/doctor_name"
+            android:layout_toEndOf="@id/doctor_card"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            tools:text="MBBS, MD" />
+
+        <TextView
+            android:id="@+id/doctor_experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/doctor_qualification"
+            android:layout_toEndOf="@id/doctor_card"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            tools:text="5+ yrs" />
+        <TextView
+            android:id="@+id/doctor_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_alignBottom="@id/doctor_card"
+            android:layout_toEndOf="@id/doctor_card"
+            android:textColor="#FF0000"
+            app:chipBackgroundColor="#FF0000"
+            tools:text="Allopathy"/>
+
+        <Button
+            android:id="@+id/btn_book_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="Book"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/accent" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

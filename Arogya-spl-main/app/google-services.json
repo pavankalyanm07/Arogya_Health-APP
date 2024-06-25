@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355685513967",
+    "project_id": "arogya-c42f8",
+    "storage_bucket": "arogya-c42f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355685513967:android:07bcc46fb610a09035791a",
+        "android_client_info": {
+          "package_name": "com.example.arogya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355685513967-vdt912bk3cp6ksif0iicotjb4demqht3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAARroyXKRjwVQgSxNDWDcH8NJMb-Aey0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355685513967-vdt912bk3cp6ksif0iicotjb4demqht3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
